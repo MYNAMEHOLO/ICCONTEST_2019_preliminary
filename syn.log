@@ -1,0 +1,531 @@
+
+                            Design Compiler (R) NXT 
+
+                 Version U-2022.12 for linux64 - Nov 22, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+Initializing...
+#Read All Files
+read_verilog ./CONV.v
+Loading db file '/usr/cad/CBDK_IC_Contest_v2.1/SynopsysDC/db/slow.db'
+Loading db file '/usr/cad/synopsys/synthesis/2022.12/libraries/syn/dw_foundation.sldb'
+Loading db file '/usr/cad/synopsys/synthesis/2022.12/libraries/syn/gtech.db'
+Loading db file '/usr/cad/synopsys/synthesis/2022.12/libraries/syn/standard.sldb'
+  Loading link library 'slow'
+  Loading link library 'gtech'
+Loading verilog file '/home/data_1/M11112092/CIC/2019/CONV.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/data_1/M11112092/CIC/2019/CONV.v
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:70: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:71: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:109: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:110: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:111: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:112: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:114: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:115: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:116: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:117: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:130: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:131: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:132: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:133: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:135: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:136: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:137: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:138: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:310: signed to unsigned part selection occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:312: signed to unsigned part selection occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:315: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:338: signed to unsigned part selection occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:340: signed to unsigned part selection occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:343: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:366: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:370: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:374: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:378: signed to unsigned part selection occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:379: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:394: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:398: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:402: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:406: signed to unsigned part selection occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:407: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:417: signed to unsigned conversion occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:435: unsigned to signed assignment occurs. (VER-318)
+Warning:  /home/data_1/M11112092/CIC/2019/CONV.v:448: unsigned to signed assignment occurs. (VER-318)
+
+Statistics for case statements in always block at line 157 in file
+	'/home/data_1/M11112092/CIC/2019/CONV.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           159            |     auto/no      |
+===============================================
+
+Statistics for case statements in always block at line 221 in file
+	'/home/data_1/M11112092/CIC/2019/CONV.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           240            |     auto/no      |
+===============================================
+
+Inferred memory devices in process
+	in routine CONV line 148 in file
+		'/home/data_1/M11112092/CIC/2019/CONV.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       cs_reg        | Flip-flop |  37   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       cs_reg        | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV line 221 in file
+		'/home/data_1/M11112092/CIC/2019/CONV.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      pixel_reg      | Flip-flop |  180  |  Y  | N  | Y  | N  | N  | N  | N  |
+|       crd_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|      conv_reg       | Flip-flop |  360  |  Y  | N  | Y  | N  | N  | N  | N  |
+|      busy_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     cnt_64_reg      | Flip-flop |   6   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      iaddr_reg      | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   conv_40bit_reg    | Flip-flop |  21   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     center_reg      | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      csel_reg       | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    caddr_wr_reg     | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    cdata_wr_reg     | Flip-flop |  20   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       cwr_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    caddr_rd_reg     | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/data_1/M11112092/CIC/2019/CONV.db:CONV'
+Loaded 1 design.
+Current design is 'CONV'.
+CONV
+current_design CONV
+Current design is 'CONV'.
+{CONV}
+link
+
+  Linking design 'CONV'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  CONV                        /home/data_1/M11112092/CIC/2019/CONV.db
+  slow (library)              /usr/cad/CBDK_IC_Contest_v2.1/SynopsysDC/db/slow.db
+  dw_foundation.sldb (library) /usr/cad/synopsys/synthesis/2022.12/libraries/syn/dw_foundation.sldb
+
+1
+#Setting Clock Constraints
+source -echo -verbose CONV.sdc
+# operating conditions and boundary conditions #
+create_clock -name clk  -period 10.0   [get_ports  clk] 
+1
+set_dont_touch_network      [all_clocks]
+1
+set_fix_hold                [all_clocks]
+1
+set_clock_uncertainty  0.1  [all_clocks]
+1
+set_clock_latency      0.5  [all_clocks]
+1
+set_ideal_network           [get_ports clk]
+1
+#Don't touch the basic env setting as below
+set_input_delay  5.0   -clock clk [remove_from_collection [all_inputs] [get_ports clk]]
+1
+set_output_delay 0.5    -clock clk [all_outputs] 
+1
+set_load         1   [all_outputs]
+1
+set_drive        1   [all_inputs]
+1
+set_operating_conditions -max_library slow -max slow
+Using operating conditions 'slow' found in library 'slow'.
+1
+set_wire_load_model -name tsmc13_wl10 -library slow                        
+1
+set_max_fanout 20 [all_inputs]
+1
+1
+#Synthesis all design
+compile -map_effort high -area_effort high
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | U-2022.12-DWBB_202212.0 |     *     |
+| Licensed DW Building Blocks        | U-2022.12-DWBB_202212.0 |     *     |
+============================================================================
+
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler NXT                                                               |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 1471                                   |
+| Number of User Hierarchies                              | 0                                      |
+| Sequential Cell Count                                   | 679                                    |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 2                                      |
+| Number of VT Class                                      | 0                                      |
+| Number of Clocks                                        | 1                                      |
+| Number of Dont Touch Cells                              | 509                                    |
+| Number of Dont Touch Nets                               | 1                                      |
+| Number of Size Only Cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+====================================================================================================
+
+Information: There are 34 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'CONV'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'CONV_DW01_inc_0'
+  Processing 'CONV_DW01_inc_1'
+  Processing 'CONV_DW01_inc_2'
+  Processing 'CONV_DW01_add_0'
+  Processing 'CONV_DW01_dec_0'
+  Processing 'CONV_DW01_sub_0'
+  Processing 'CONV_DW01_sub_1'
+  Processing 'CONV_DW01_sub_2'
+  Processing 'CONV_DW01_add_1'
+  Processing 'CONV_DW01_add_2'
+  Mapping 'CONV_DW_cmp_0'
+  Processing 'CONV_DW01_inc_3'
+  Processing 'CONV_DW01_sub_3'
+  Processing 'CONV_DW01_add_3'
+  Processing 'CONV_DW01_add_4'
+  Processing 'CONV_DW01_add_5'
+  Processing 'CONV_DW01_inc_4'
+  Mapping 'CONV_DW_cmp_1'
+  Mapping 'CONV_DW_cmp_2'
+  Building model 'DW01_NAND2'
+  Processing 'DW01_NAND2'
+  Building model 'DW01_add_width40' (rpl)
+  Processing 'DW01_add_width40'
+  Processing 'CONV_DW01_add_6'
+  Processing 'CONV_DW01_add_7'
+  Processing 'CONV_DW01_add_8'
+  Processing 'CONV_DW01_add_9'
+  Processing 'CONV_DW01_add_10'
+  Processing 'CONV_DW01_add_11'
+  Mapping 'CONV_DW_mult_tc_0'
+  Mapping 'CONV_DW_mult_tc_1'
+  Processing 'CONV_DW01_add_12'
+  Processing 'CONV_DW01_add_13'
+  Processing 'CONV_DW01_add_14'
+  Processing 'CONV_DW01_add_15'
+  Processing 'CONV_DW01_add_16'
+  Processing 'CONV_DW01_add_17'
+  Mapping 'CONV_DW_mult_tc_2'
+  Mapping 'CONV_DW_mult_tc_3'
+  Mapping 'CONV_DW_mult_tc_4'
+  Mapping 'CONV_DW_mult_tc_5'
+  Mapping 'CONV_DW_mult_tc_6'
+  Mapping 'CONV_DW_mult_tc_7'
+  Mapping 'CONV_DW_mult_tc_8'
+  Mapping 'CONV_DW_mult_tc_9'
+  Mapping 'CONV_DW_mult_tc_10'
+  Mapping 'CONV_DW_mult_tc_11'
+  Mapping 'CONV_DW_mult_tc_12'
+  Mapping 'CONV_DW_mult_tc_13'
+  Mapping 'CONV_DW_mult_tc_14'
+  Mapping 'CONV_DW_mult_tc_15'
+  Mapping 'CONV_DW_mult_tc_16'
+  Mapping 'CONV_DW_mult_tc_17'
+
+  Beginning Mapping Optimizations  (High effort)
+  -------------------------------
+Information: Added key list 'DesignWare' to design 'CONV'. (DDB-72)
+  Mapping Optimization (Phase 1)
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:16  365631.8      0.00       0.0   47324.7                                0.00  
+    0:00:16  365631.8      0.00       0.0   47324.7                                0.00  
+    0:00:16  365631.8      0.00       0.0   47324.7                                0.00  
+    0:00:16  365631.8      0.00       0.0   47324.7                                0.00  
+    0:00:16  365631.8      0.00       0.0   47324.7                                0.00  
+    0:00:21  157169.1      6.41    1011.3   46245.0                                0.00  
+    0:00:24  163125.2      5.40     453.3   46241.7                                0.00  
+    0:00:25  161405.8      4.79     411.0   46241.7                                0.00  
+    0:00:26  161842.0      4.12     358.7   46241.7                                0.00  
+    0:00:26  161643.4      4.11     407.9   46240.1                                0.00  
+    0:00:27  162203.5      3.79     353.7   46240.1                                0.00  
+    0:00:27  161950.6      3.91     365.1   46240.1                                0.00  
+    0:00:28  162395.3      3.87     358.6   46240.1                                0.00  
+    0:00:28  162218.8      3.91     401.6   46240.1                                0.00  
+    0:00:29  162531.1      3.42     336.8   46240.1                                0.00  
+    0:00:29  162724.6      3.11     334.7   46240.1                                0.00  
+    0:00:29  162941.9      3.03     322.7   46240.1                                0.00  
+    0:00:29  163037.0      2.93     319.7   46240.1                                0.00  
+    0:00:29  163471.5      2.91     273.8   46240.1                                0.00  
+    0:00:29  163768.5      2.46     271.1   46240.1                                0.00  
+    0:00:30  164109.7      2.22     265.9   46240.1                                0.00  
+    0:00:30  164289.6      2.11     232.4   46240.1                                0.00  
+    0:00:30  164675.0      1.97     209.7   46240.1                                0.00  
+    0:00:30  164793.8      1.74     207.0   46240.1                                0.00  
+    0:00:30  164793.8      1.74     207.0   46240.1                                0.00  
+    0:00:30  164793.8      1.74     207.0   46240.1                                0.00  
+    0:00:30  165574.6      1.74     202.7    1507.6                                0.00  
+    0:00:30  165606.8      1.74     202.6       0.0                                0.00  
+    0:00:30  165606.8      1.74     202.6       0.0                                0.00  
+    0:00:30  165606.8      1.74     202.6       0.0                                0.00  
+    0:00:30  165606.8      1.74     202.6       0.0                                0.00  
+    0:00:31  166133.0      1.17     145.4      41.4 conv_40bit_reg[29]/D           0.00  
+    0:00:31  166681.3      0.93     115.1      31.6 conv_40bit_reg[33]/D           0.00  
+    0:00:31  167292.3      0.76      75.8      36.8 conv_40bit_reg[32]/D           0.00  
+    0:00:31  167733.7      0.53      42.8      39.0 conv_reg[7][39]/D              0.00  
+    0:00:31  168152.9      0.35      27.1      39.0 conv_40bit_reg[34]/D           0.00  
+    0:00:32  169828.3      0.01       0.1      65.3 conv_40bit_reg[26]/D           0.00  
+    0:00:32  169804.5      0.00       0.0      65.3                                0.00  
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:32  169804.5      0.00       0.0      65.3                                0.00  
+    0:00:32  169804.5      0.00       0.0      65.3                                0.00  
+    0:00:32  169741.7      0.00       0.0     850.9                                0.00  
+    0:00:33  169714.5      0.00       0.0     881.1                                0.00  
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:33  169714.5      0.00       0.0     881.1                                0.00  
+    0:00:33  169651.7      0.00       0.0       0.0                                0.00  
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:33  169651.7      0.00       0.0       0.0                                0.00  
+    0:00:33  169651.7      0.00       0.0       0.0                                0.00  
+    0:00:34  166472.5      0.36       3.6       0.0                                0.00  
+    0:00:34  165815.6      0.32       4.2       0.0                                0.00  
+    0:00:35  165460.9      0.14       3.1       0.0                                0.00  
+    0:00:35  165296.2      0.14       3.1       0.0                                0.00  
+    0:00:35  165145.1      0.14       3.4       0.0                                0.00  
+    0:00:35  165053.5      0.14       3.3       0.0                                0.00  
+    0:00:35  164951.6      0.14       2.6       0.0                                0.00  
+    0:00:35  164836.2      0.14       2.7       0.0                                0.00  
+    0:00:35  164700.4      0.13       2.1       0.0                                0.00  
+    0:00:35  164617.2      0.12       1.9       0.0                                0.00  
+    0:00:36  164495.0      0.12       2.2       0.0                                0.00  
+    0:00:36  164401.7      0.13       1.9       0.0                                0.00  
+    0:00:36  164335.5      0.13       2.0       0.0                                0.00  
+    0:00:36  164259.1      0.13       2.0       0.0                                0.00  
+    0:00:36  164199.7      0.13       2.0       0.0                                0.00  
+    0:00:36  164143.7      0.14       2.1       0.0                                0.00  
+    0:00:36  164097.8      0.14       2.1       0.0                                0.00  
+    0:00:36  164055.4      0.14       1.8       0.0                                0.00  
+    0:00:36  163997.7      0.14       1.7       0.0                                0.00  
+    0:00:37  163957.0      0.14       1.7       0.0                                0.00  
+    0:00:37  163916.2      0.14       1.7       0.0                                0.00  
+    0:00:37  163882.3      0.14       1.7       0.0                                0.00  
+    0:00:37  163848.3      0.14       1.7       0.0                                0.00  
+    0:00:37  163821.2      0.14       1.7       0.0                                0.00  
+    0:00:37  163807.6      0.14       1.7       0.0                                0.00  
+    0:00:37  163807.6      0.14       1.7       0.0                                0.00  
+    0:00:37  163782.1      0.00       0.0       0.0                                0.00  
+    0:00:38  157747.9      3.62     215.5       0.0                                0.00  
+    0:00:38  157138.5      3.62     217.5       0.0                                0.00  
+    0:00:38  157060.4      3.62     217.1       0.0                                0.00  
+    0:00:38  157060.4      3.62     217.1       0.0                                0.00  
+    0:00:38  157060.4      3.62     217.1       0.0                                0.00  
+    0:00:38  157060.4      3.62     217.1       0.0                                0.00  
+    0:00:38  157060.4      3.62     217.1       0.0                                0.00  
+    0:00:38  157060.4      3.62     217.1       0.0                                0.00  
+    0:00:38  157829.3      0.74      66.5       0.0 conv_40bit_reg[34]/D           0.00  
+    0:00:39  158406.5      0.44      31.2       0.0 conv_reg[5][25]/D              0.00  
+    0:00:39  158779.9      0.22      12.0       0.0 conv_40bit_reg[39]/D           0.00  
+    0:00:39  159046.4      0.12       5.5       0.0 conv_40bit_reg[39]/D           0.00  
+    0:00:39  159241.6      0.06       1.8       0.0 conv_reg[3][33]/D              0.00  
+    0:00:40  159542.0      0.00       0.0       0.0                                0.00  
+Loading db file '/usr/cad/CBDK_IC_Contest_v2.1/SynopsysDC/db/slow.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1
+compile -map_effort high -area_effort high -inc
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler NXT                                                               |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 14038                                  |
+| Number of User Hierarchies                              | 35                                     |
+| Sequential Cell Count                                   | 679                                    |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 2                                      |
+| Number of VT Class                                      | 0                                      |
+| Number of Clocks                                        | 1                                      |
+| Number of Dont Touch Cells                              | 0                                      |
+| Number of Dont Touch Nets                               | 1                                      |
+| Number of Size Only Cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+====================================================================================================
+
+Information: There are 846 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping  (Incremental)
+  ------------------------
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (High effort)  (Incremental)
+  -------------------------------
+
+  Beginning Incremental Implementation Selection
+  ----------------------------------------------
+  Mapping 'CONV_DW_mult_tc_37_0'
+  Mapping 'CONV_DW01_add_0'
+  Mapping 'CONV_DW01_add_1'
+  Mapping 'CONV_DW01_add_2'
+  Mapping 'CONV_DW01_add_3'
+  Mapping 'CONV_DW01_add_4'
+  Mapping 'CONV_DW01_add_5'
+  Mapping 'CONV_DW01_add_6'
+  Mapping 'CONV_DW01_add_7'
+  Mapping 'CONV_DW01_add_8'
+  Mapping 'CONV_DW01_add_9'
+  Mapping 'CONV_DW_mult_tc_36_0'
+  Mapping 'CONV_DW_mult_tc_34_0'
+  Mapping 'CONV_DW_mult_tc_32_0'
+  Mapping 'CONV_DW_mult_tc_31_0'
+  Mapping 'CONV_DW_mult_tc_30_0'
+  Mapping 'CONV_DW_mult_tc_29_0'
+  Mapping 'CONV_DW_mult_tc_28_0'
+  Mapping 'CONV_DW_mult_tc_27_0'
+  Mapping 'CONV_DW_mult_tc_26_0'
+  Mapping 'CONV_DW_mult_tc_25_0'
+  Mapping 'CONV_DW_mult_tc_24_0'
+  Mapping 'CONV_DW_mult_tc_23_0'
+  Mapping 'CONV_DW_mult_tc_22_0'
+  Mapping 'CONV_DW_mult_tc_21_0'
+  Mapping 'CONV_DW_mult_tc_20_0'
+  Mapping 'CONV_DW_mult_tc_19_0'
+  Mapping 'CONV_DW_mult_tc_18_0'
+  Selecting implementations
+  Building model 'DW01_NAND2'
+  Building model 'DW01_add_width40' (rpl)
+  Building model 'DW01_inc_width12' (rpl)
+  Mapping 'CONV_DW_cmp_1'
+  Mapping 'CONV_DW_cmp_2'
+  Building model 'DW01_dec_width12' (rpl)
+  Building model 'DW01_inc_width20' (rpl)
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:05  159542.0      0.00       0.0       0.0                                0.00  
+    0:00:06  159508.1      0.00       0.0       0.9                                0.00  
+    0:00:06  159175.4      0.00       0.0   27071.8                                0.00  
+
+
+  Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                  
+   ELAPSED            WORST NEG   SETUP    DESIGN                              MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT             COST    
+  --------- --------- --------- --------- --------- ------------------------- -----------
+    0:00:06  159175.4      0.00       0.0   27071.8                                0.00  
+    0:00:06  159598.0      0.00       0.0       0.0                                0.00  
+Loading db file '/usr/cad/CBDK_IC_Contest_v2.1/SynopsysDC/db/slow.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+1
+write -format ddc     -hierarchy -output "CONV_syn.ddc"
+Writing ddc file 'CONV_syn.ddc'.
+1
+write_sdf CONV_syn.sdf
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/data_1/M11112092/CIC/2019/CONV_syn.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+1
+write_file -format verilog -hierarchy -output CONV_syn.v
+Writing verilog file '/home/data_1/M11112092/CIC/2019/CONV_syn.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+Warning: Verilog writer has added 56 nets to module CONV using SYNOPSYS_UNCONNECTED_ as prefix.  Please use the change_names command to make the correct changes before invoking the verilog writer.  (VO-11)
+1
+report_area > area.log
+report_timing > timing.log
+report_qor   >  CONV_syn.qor
+dcnxt_shell> exit
+
+Memory usage for this session 244 Mbytes.
+Memory usage for this session including child processes 244 Mbytes.
+CPU usage for this session 50 seconds ( 0.01 hours ).
+Elapsed time for this session 265 seconds ( 0.07 hours ).
+
+Thank you...

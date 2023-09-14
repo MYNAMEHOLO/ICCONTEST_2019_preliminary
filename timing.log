@@ -1,0 +1,74 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : CONV
+Version: U-2022.12
+Date   : Thu Sep 14 14:51:16 2023
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: center_reg[8]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: conv_reg[7][36]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CONV               tsmc13_wl10           slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  center_reg[8]/CK (DFFRX1)                               0.00       0.50 r
+  center_reg[8]/Q (DFFRX1)                                0.60       1.10 f
+  U1600/Y (BUFX12)                                        0.24       1.34 f
+  U1599/Y (NAND2X2)                                       0.17       1.51 r
+  U1744/Y (NAND2BX4)                                      0.17       1.68 r
+  U2194/Y (CLKINVX1)                                      0.24       1.92 f
+  U1728/Y (NAND2X4)                                       0.24       2.17 r
+  mult_302/b[15] (CONV_DW_mult_tc_31)                     0.00       2.17 r
+  mult_302/U467/Y (INVX1)                                 0.28       2.45 f
+  mult_302/U453/Y (BUFX2)                                 0.31       2.76 f
+  mult_302/U460/Y (CLKBUFX2)                              0.81       3.57 f
+  mult_302/U474/Y (NOR2X1)                                0.42       3.99 r
+  mult_302/U450/S (ADDFXL)                                1.03       5.02 f
+  mult_302/U504/Y (NOR2X1)                                0.56       5.58 r
+  mult_302/U654/Y (OAI21XL)                               0.29       5.87 f
+  mult_302/U653/Y (AOI21X1)                               0.43       6.30 r
+  mult_302/U441/Y (OAI21X1)                               0.29       6.59 f
+  mult_302/U645/Y (AOI21X1)                               0.46       7.05 r
+  mult_302/U483/Y (OAI21X2)                               0.22       7.28 f
+  mult_302/U438/Y (AOI21X1)                               0.44       7.72 r
+  mult_302/U437/Y (OAI21X2)                               0.21       7.92 f
+  mult_302/U468/Y (AOI21X1)                               0.40       8.33 r
+  mult_302/U458/Y (OAI21X1)                               0.29       8.62 f
+  mult_302/U457/Y (AOI21X1)                               0.53       9.15 r
+  mult_302/U459/Y (OAI21X4)                               0.18       9.33 f
+  mult_302/U627/Y (AOI21X2)                               0.50       9.83 r
+  mult_302/product[36] (CONV_DW_mult_tc_31)               0.00       9.83 r
+  U2693/Y (AO21X1)                                        0.33      10.15 r
+  conv_reg[7][36]/D (DFFRX1)                              0.00      10.15 r
+  data arrival time                                                 10.15
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.50      10.50
+  clock uncertainty                                      -0.10      10.40
+  conv_reg[7][36]/CK (DFFRX1)                             0.00      10.40 r
+  library setup time                                     -0.25      10.15
+  data required time                                                10.15
+  --------------------------------------------------------------------------
+  data required time                                                10.15
+  data arrival time                                                -10.15
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
