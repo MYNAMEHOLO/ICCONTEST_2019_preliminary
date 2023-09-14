@@ -1,4 +1,4 @@
-R# ICCONTEST_2019_Preliminary
+# ICCONTEST_2019_Preliminary
 
 ## 競賽面積與等級：
 | Porject name   	    | Cell Area | Setup Time  | 等級        | 備註       |
